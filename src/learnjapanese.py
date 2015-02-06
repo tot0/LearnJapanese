@@ -4,7 +4,7 @@ from functools import reduce
 definitions = {
 	# Lesson 1
 	"no": "の", "he": "へ", "ke": "け", "i": "い",
-	"a": "あ", "ku": "く", "ko": "こ",	"ni": "に",
+	"a": "あ", "ku": "く", "ko": "こ", "ni": "に",
 
 	# Lesson 2
 	"ri": 'り', "tsu": 'つ', "u": 'う', "chi": 'ち',
