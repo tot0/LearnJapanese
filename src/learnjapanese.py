@@ -26,7 +26,7 @@ def d(japanese_letters="", sep=""):
 	"""
 	Take string of Hiragana characters and return the Romanji for each
 	"""
-		return sep.join([definitions[letter] for letter in japanese_letters])
+	return sep.join([definitions[letter] for letter in japanese_letters])
 
 def l(n=5, start=0, end=len(lessons)):
 	"""
