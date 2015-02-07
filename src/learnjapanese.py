@@ -7,8 +7,11 @@ definitions = {
 	"a": "あ", "ku": "く", "ko": "こ", "ni": "に",
 
 	# Lesson 2
-	"ri": 'り', "tsu": 'つ', "u": 'う', "chi": 'ち',
-	"ra": 'ら', "ta": 'た', "sa": 'さ', "ki": 'き'
+	"ri": "り", "tsu": "つ", "u": "う", "chi": "ち",
+	"ra": "ら", "ta": "た", "sa": "さ", "ki": "き",
+
+	# Lesson 3
+	"ha": "は", "ho": "ほ", "ma": "ま", "yo": "よ", "na": "な", "o": "お", 
 }
 
 # Add reverse definitions to dict
@@ -16,10 +19,13 @@ definitions.update({hiragana: romanji for romanji, hiragana in definitions.items
 
 lessons = [
 	# Lesson 1
-	['の', 'へ', 'け', 'い', 'あ', 'く', 'こ', 'に'],
+	["の", "へ", "け", "い", "あ", "く", "こ", "に"],
 
 	# Lesson 2
-	['り', 'つ', 'う', 'ち', 'ら', 'た', 'さ', 'き']
+	["り", "つ", "う", "ち", "ら", "た", "さ", "き"],
+
+	# Lesson 3
+	["は", "ほ", "ま", "よ", "な", "お"],
 ]
 
 def d(japanese_letters="", sep=""):
