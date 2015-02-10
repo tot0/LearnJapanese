@@ -61,4 +61,4 @@ def l(n=5, start=0, end=len(lessons)):
 print("Welcome to learn japanese!\n")
 print("Run l() to get some random Hiragana.")
 print("Run d(_, ' ') to get the Romanji for those Hiragana.")
-print("Press Alt+P to quickly jump back statements to repeat :)")
+print("Press Alt+P or up arrow to quickly jump back statements to repeat :)")
